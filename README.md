@@ -1,3 +1,1 @@
-# Conquering Responsive Layouts by Kevin Powell
-
-
+## Conquering Responsive Layouts by Kevin Powell
