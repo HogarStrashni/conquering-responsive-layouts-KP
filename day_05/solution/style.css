@@ -19,7 +19,7 @@ body {
 
 .hero {
   width: 50%;
-  max-width: 710px;
+  max-width: 44rem;
   margin: 0 8vw;
   padding: 10vw 0;
 }
