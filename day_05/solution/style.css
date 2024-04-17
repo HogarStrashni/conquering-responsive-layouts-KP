@@ -24,13 +24,13 @@ body {
   padding: 10vw 0;
 }
 
-.hero-title {
+.hero h1 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.17;
 }
 
-.hero-text {
+.hero p {
   margin-top: 1em;
 }
 
