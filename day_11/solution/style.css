@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #f3eed9;
+    min-height: 660px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: #824936;
+        font-size: 60px;
+        max-width: 50%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+    }
+}
