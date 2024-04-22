@@ -7,8 +7,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.container {
+    width: 90%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.header{
     background-color: #f3eed9;
+}
+
+.header__text {    
     min-height: 660px;
     display: flex;
     flex-direction: column-reverse;
@@ -19,7 +28,7 @@ body {
         font-family: "Playfair Display", serif;
         color: #824936;
         font-size: 3.75rem;
-        max-width: 50%;
+        max-width: 70%;
         text-align: center;
     }
 
@@ -31,7 +40,9 @@ body {
 }
 
 .quality-designs {
-    padding: 4rem 0;
+    .quality-designs__text {
+        padding: 3rem 0 4rem;
+    }
 
     h2 {
         font-family: "Playfair Display", serif;
@@ -42,7 +53,6 @@ body {
 
     .text {
         display: flex;
-        max-width: 80%;
         margin: 0 auto;
         gap: 3rem;
     }
