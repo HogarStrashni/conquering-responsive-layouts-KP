@@ -7,11 +7,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-
-    max-width: 1128px;
-}
-
 .header {
     background-color: #f3eed9;
     min-height: 660px;
@@ -49,7 +44,7 @@ body {
         display: flex;
         max-width: 80%;
         margin: 0 auto;
-        gap: 1rem;
+        gap: 3rem;
     }
     p {
         width: 100%;
