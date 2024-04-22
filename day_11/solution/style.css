@@ -13,7 +13,11 @@ body {
     margin: 0 auto;
 }
 
-.header{
+.heading {
+    font-family: "Playfair Display", serif;
+}
+
+.header {
     background-color: #f3eed9;
 }
 
@@ -25,7 +29,6 @@ body {
     align-items: center;
 
     h1 {
-        font-family: "Playfair Display", serif;
         color: #824936;
         font-size: 3.75rem;
         max-width: 70%;
@@ -45,7 +48,6 @@ body {
     }
 
     h2 {
-        font-family: "Playfair Display", serif;
         text-align: center;
         color: #824936;
         font-size: 2.25rem;
@@ -54,9 +56,33 @@ body {
     .text {
         display: flex;
         margin: 0 auto;
-        gap: 3rem;
+        gap: 2rem;
     }
     p {
         width: 100%;
     }
+}
+
+.made-custom {
+    background-color: #222c2a;
+    color: white;
+}
+
+.with-care {
+    background-color: #842936;
+    color: white;
+}
+
+.content {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+.content__text {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
 }
